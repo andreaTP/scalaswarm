@@ -1,0 +1,8 @@
+publishLocal
+exit
+clean
+compile
+clean
+compile
+publishLocal
+exit

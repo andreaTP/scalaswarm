@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="demo.akkajs"
+		module="twitter-messages_sjs0.6_2.12"
+		revision="0.0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20170620082316"/>
+	<dependencies>
+		<module organisation="org.scala-js" name="scalajs-test-interface_2.12">
+			<revision name="0.6.17" status="release" pubdate="20170603003305" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-test-interface/0.6.17/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="/home/andrea/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/ivy-0.6.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.17/scalajs-test-interface_2.12-0.6.17.pom"/>
+				<caller organisation="demo.akkajs" name="twitter-messages_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalajs-test-interface_2.12" type="jar" ext="jar" status="no" details="" size="253097" time="0" location="/home/andrea/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/jars/scalajs-test-interface_2.12-0.6.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.17/scalajs-test-interface_2.12-0.6.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12">
+			<revision name="1.1.13" status="release" pubdate="20161113042138" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/benhutchison/prickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache license" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3397" time="0" location="/home/andrea/.ivy2/cache/com.github.benhutchison/prickle_sjs0.6_2.12/ivy-1.1.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/benhutchison/prickle_sjs0.6_2.12/1.1.13/prickle_sjs0.6_2.12-1.1.13.pom"/>
+				<caller organisation="demo.akkajs" name="twitter-messages_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.13" rev-constraint-default="1.1.13" rev-constraint-dynamic="1.1.13" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="prickle_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="254030" time="0" location="/home/andrea/.ivy2/cache/com.github.benhutchison/prickle_sjs0.6_2.12/jars/prickle_sjs0.6_2.12-1.1.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/benhutchison/prickle_sjs0.6_2.12/1.1.13/prickle_sjs0.6_2.12-1.1.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.benhutchison" name="microjson_sjs0.6_2.12">
+			<revision name="1.4" status="release" pubdate="20161113041633" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/benhutchison/microjson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache license" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/home/andrea/.ivy2/cache/com.github.benhutchison/microjson_sjs0.6_2.12/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/benhutchison/microjson_sjs0.6_2.12/1.4/microjson_sjs0.6_2.12-1.4.pom"/>
+				<caller organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.1.13"/>
+				<artifacts>
+					<artifact name="microjson_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="66858" time="0" location="/home/andrea/.ivy2/cache/com.github.benhutchison/microjson_sjs0.6_2.12/jars/microjson_sjs0.6_2.12-1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/benhutchison/microjson_sjs0.6_2.12/1.4/microjson_sjs0.6_2.12-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.12">
+			<revision name="0.6.17" status="release" pubdate="20170603003041" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.17/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/home/andrea/.ivy2/cache/org.scala-js/scalajs-library_2.12/ivy-0.6.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.17/scalajs-library_2.12-0.6.17.pom"/>
+				<caller organisation="com.github.benhutchison" name="microjson_sjs0.6_2.12" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.4"/>
+				<caller organisation="demo.akkajs" name="twitter-messages_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.0.1"/>
+				<caller organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.1.13"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.6.17"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.12" type="jar" ext="jar" status="no" details="" size="6434225" time="0" location="/home/andrea/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.17/scalajs-library_2.12-0.6.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.13" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.17"/>
+				<caller organisation="com.github.benhutchison" name="microjson_sjs0.6_2.12" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.4"/>
+				<caller organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.1.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.2" status="release" pubdate="20170413091812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/andrea/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.pom"/>
+				<caller organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.1.13"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3553181" time="0" location="/home/andrea/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413091911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/andrea/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="com.github.benhutchison" name="microjson_sjs0.6_2.12" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.4"/>
+				<caller organisation="demo.akkajs" name="twitter-messages_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.0.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="2.12.2"/>
+				<caller organisation="com.github.benhutchison" name="prickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.1.13"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.6.17"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.6.17"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="/home/andrea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
