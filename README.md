@@ -1,6 +1,12 @@
 
 To run the example you need node and sbt installed.
 
+in the `messages` directory run:
+
+```
+sbt publishLocal
+```
+
 in the ```server``` directory run:
 
 ```
@@ -15,4 +21,3 @@ in the ```client``` directory run:
 sbt fullOptJS
 ```
  and then open ```client/ui/index.html``` in a recent browser.
- 

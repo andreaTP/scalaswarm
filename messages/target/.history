@@ -6,3 +6,7 @@ clean
 compile
 publishLocal
 exit
+publishLocal
+exit
+publishLocal
+exit

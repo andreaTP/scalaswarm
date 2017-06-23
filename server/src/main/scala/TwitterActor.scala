@@ -16,7 +16,6 @@ class TwitterActor() extends Actor {
 
   twitter.on("tweet", (tweet: js.Dynamic) => {
     Try {
-      val json = js.JSON.stringify(tweet)
       context.parent ! Tweet(tweet.user.name.toString, tweet.text.toString)
     }
   })

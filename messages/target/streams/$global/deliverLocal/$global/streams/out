@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0m:: delivering :: demo.akkajs#twitter-messages_sjs0.6_2.12;0.0.1 :: 0.0.1 :: release :: Tue Jun 20 08:23:25 WEST 2017[0m
-[0m[[0mdebug[0m] [0m	options = status=release pubdate=Tue Jun 20 08:23:25 WEST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m:: delivering :: demo.akkajs#twitter-messages_sjs0.6_2.12;0.0.1 :: 0.0.1 :: release :: Fri Jun 23 08:35:56 WEST 2017[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Fri Jun 23 08:35:56 WEST 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
 [0m[[0minfo[0m] [0m	delivering ivy file to /home/andrea/workspace/scalaswarm/messages/target/scala-2.12/ivy-0.0.1.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (20ms)[0m
+[0m[[0mdebug[0m] [0m	deliver done (21ms)[0m
